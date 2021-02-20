@@ -1,0 +1,16 @@
+{
+  "name": "viewcounter",
+  "version": "1.0.0",
+  "description": "To Count views of a page and answering a question",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Narendran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
