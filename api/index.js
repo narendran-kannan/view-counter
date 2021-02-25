@@ -24,4 +24,5 @@ app.post('/api/endorsement', (req, res) => {
   res.send("Okay!");
 });
 
-module.exports = app
+app.listen(process.env.PORT || 3000,
+  () => console.log("Server is running..."));
